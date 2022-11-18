@@ -20,6 +20,15 @@ Given the fact that our analysis is more profund and requires a deep understandi
 
 ## Methods
 
+The first and most important aspect of our analysis was to be able to produce the political labels and sentiment labels. For this purpose, we trained a BERT model (more exactly [PolitBERT](https://huggingface.co/maurice/PolitBERT), in order to have a political-flavoured model) on Democrat Vs. Republican Tweets and Twitter and Reddit Sentimental analysis Dataset. After the models were trained, we were able to inpher for each video whici political and sentiment affilition it had, based on its text description and title. 
+
+Since the discussion is relevant for the US population, we chose to only consider channels from US. In order to correctly identify the country of each channels, we used Youtube Data API to retrieve this additional information, based on channel id.
+
+We found some inconsistencies among the categories for each channel, so we decided to retrieve this information form Youtube API. We filtred only channels from 'Politics' and 'Society', but our further analysis could focus on multiple categories.
+
+#### :one: Is YouTube strictly politically unbiased or does it have its own preferences?
+To investigate this, we tried to understand the distribution of republican and democratic content. We performend our analysis on video level and aggregated the results by month, in order to understand the trend revolution. 
+
 ## Proposed deadline
 
 ## Organization within the team
