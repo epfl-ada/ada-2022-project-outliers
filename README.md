@@ -65,3 +65,4 @@ Trend Validation: Rares + Max
 * Is our mathching idea a good way to correclty analyse trends in channels?
 * Should we use ttests to validate question 2? Are there more meaningful ways to showcase these findings?
 * Do you have any suggestions for other analysis that can be performed?
+* If we were to connect videos commented by the same user what would be the optimal idea for the weight between two videos in order to cluster the videos in terms of user engagement? Would the number of common comment between videos help to describe thier engagement?
