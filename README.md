@@ -27,7 +27,7 @@ Since the discussion is relevant for the US population, we chose to only conside
 We found some inconsistencies among the categories for each channel, so we decided to retrieve this information form Youtube API. We filtred only channels from 'Politics' and 'Society', but our further analysis could focus on multiple categories.
 
 #### :one: Is YouTube strictly politically unbiased or does it have its own preferences?
-To investigate this, we tried to understand the distribution of republican and democratic content. We performend our analysis on video level and aggregated the results by month, in order to understand the trend revolution. 
+To investigate this, we tried to understand the distribution of republican and democratic content. We performed our analysis on video level and aggregated the results by month, in order to understand the trend revolution. 
 
 ![alt text](https://github.com/epfl-ada/ada-2022-project-outliers/blob/main/img/evolution_upload_density.png "Logo Title Text 1")
 
@@ -41,6 +41,9 @@ We can see that there is a clear tendency towards more republican content posted
 For this, we want to see how users interract. Do they only comment on a single type of video, or do they try to have a conversation with the other party? Are democrats more likely to comment to republicans videos? We can inpher if a user is republican or democrat by analysing the majority of the videos he/she commented on. 
 
 We can also try to cluster videos. We can add weights between video that depends on whether or not the video was published by the same channel and the number of common commenters for both videos. In this way, we can see wheter or not we can cluster videos and what will describe these clusters.
+
+#### :three: Is it a bad thing for a channel to change the direction of the videos that they are producing? Does this affect the overall engagement?
+In order to answer this question, we will use the channel timeseries to retrieve the information about a channel at a given point in time. We will match channels that have the same number of subscribers at a certain point in time and have the last 4 videos with the same political scores and sentiment scores. After matching, we can more reliably tell wheter or not changing video direction influences the engagement.
 
 ## Proposed timeline
 
