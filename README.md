@@ -61,3 +61,8 @@ User Interraction + Video clustering: Andreea + Patryk
 
 Trend Validation: Rares + Max
 
+## Questions for TA:
+* Is our mathching idea a good way to correclty analyse trends in channels?
+* Should we use ttests to validate question 2? Are there more meaningful ways to showcase these findings?
+* Do you have any suggestions for other analysis that can be performed?
+
