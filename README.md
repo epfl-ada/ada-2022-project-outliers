@@ -45,14 +45,19 @@ We can also try to cluster videos. We can add weights between video that depends
 #### :three: Is it a bad thing for a channel to change the direction of the videos that they are producing? Does this affect the overall engagement?
 In order to answer this question, we will use the channel timeseries to retrieve the information about a channel at a given point in time. We will match channels that have the same number of subscribers at a certain point in time and have the last 4 videos with the same political scores and sentiment scores. After matching, we can more reliably tell wheter or not changing video direction influences the engagement.
 
-## Proposed timeline
+## Proposed timeline ⏰
 Week 1: Matching channels and retrieve the results.
+
 Week 2: Understand users interraction and work on creating video clusters and understand their composition.
+
 Week 3: Validate trends based on elections results and finish datastory.
 
-## Organization within the team
+## Organization within the team 👥
 Datastory: Max + Patryk
+
 Maching channels: Andreea + Rares
+
 User Interraction + Video clustering: Andreea + Patryk
+
 Trend Validation: Rares + Max
 
