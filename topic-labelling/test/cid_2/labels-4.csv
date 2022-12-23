@@ -1,0 +1,5 @@
+topic_id,term0,term1,term2,term3,term4,term5,term6,term7,term8,term9
+0,follow,live,global,tv,com,globalpunjabtv,punjab,stream,twitter,watch
+1,tv,www,global,com,follow,globalpunjabtv,live,punjab,stream,twitter
+2,global,watch,tv,com,follow,globalpunjabtv,live,punjab,stream,twitter
+3,globalpunjabtv,twitter,punjab,stream,global,tv,com,follow,live,watch

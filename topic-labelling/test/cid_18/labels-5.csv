@@ -1,0 +1,6 @@
+topic_id,term0,term1,term2,term3,term4,term5,term6,term7,term8,term9
+0,channel,strictly,आतमहतय,अग,website,video,use,twitter,allow,com
+1,permission,twitter,prohibit,अग,website,video,use,allow,strictly,com
+2,prohibit,embed,follow,website,twitter,अग,video,use,allow,com
+3,twitter,अग,prior,prohibit,website,video,use,allow,strictly,com
+4,video,strictly,prohibit,अग,website,use,twitter,allow,follow,embed

@@ -1,0 +1,10 @@
+topic_id,term0,term1,term2,term3,term4,term5,term6,term7,term8,term9
+0,follow,global,tv,com,globalpunjabtv,live,punjab,stream,twitter,watch
+1,globalpunjabtv,global,tv,com,follow,live,punjab,stream,twitter,watch
+2,live,global,tv,com,follow,globalpunjabtv,punjab,stream,twitter,watch
+3,globalpunjabtv,www,global,tv,com,follow,live,punjab,stream,twitter
+4,global,punjab,stream,tv,com,follow,globalpunjabtv,live,twitter,watch
+5,watch,global,tv,com,follow,globalpunjabtv,live,punjab,stream,twitter
+6,tv,global,com,follow,globalpunjabtv,live,punjab,stream,twitter,watch
+7,twitter,global,tv,com,follow,globalpunjabtv,live,punjab,stream,watch
+8,live,global,tv,com,follow,globalpunjabtv,punjab,stream,twitter,watch

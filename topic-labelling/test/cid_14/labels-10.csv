@@ -1,0 +1,11 @@
+topic_id,term0,term1,term2,term3,term4,term5,term6,term7,term8,term9
+0,news,reporting,research,section,share,purpose,scholarship,personal,teaching,tip
+1,infringe,disclaimer,allowance,copyright,research,teach,reporting,scholarship,section,profit
+2,personal,section,profit,purpose,reporting,research,scholarship,permit,teaching,tip
+3,permit,teach,section,profit,purpose,reporting,research,scholarship,share,watch
+4,statute,share,scholarship,profit,purpose,reporting,research,permit,section,watch
+5,fair,comment,purpose,section,share,reporting,research,scholarship,personal,teaching
+6,scholarship,favor,make,teaching,fair,reporting,research,section,profit,share
+7,copyright,fair,profit,make,tip,share,reporting,research,scholarship,section
+8,tip,criticism,watch,collection,scholarship,statute,purpose,reporting,research,personal
+9,educational,balance,personal,scholarship,section,profit,purpose,reporting,research,tip

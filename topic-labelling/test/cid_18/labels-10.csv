@@ -1,0 +1,11 @@
+topic_id,term0,term1,term2,term3,term4,term5,term6,term7,term8,term9
+0,follow,prior,twitter,prohibit,अग,website,video,use,allow,com
+1,strictly,website,prohibit,अग,video,use,twitter,allow,follow,embed
+2,अग,strictly,prohibit,website,video,use,twitter,allow,follow,embed
+3,permission,twitter,prohibit,अग,website,video,use,allow,strictly,com
+4,channel,prohibit,अग,website,video,use,twitter,allow,strictly,com
+5,आतमहतय,embed,twitter,अग,website,video,use,allow,strictly,com
+6,prohibit,strictly,अग,website,video,use,twitter,allow,follow,embed
+7,twitter,strictly,prohibit,अग,website,video,use,allow,follow,embed
+8,video,strictly,prohibit,अग,website,use,twitter,allow,follow,embed
+9,channel,prohibit,अग,website,video,use,twitter,allow,strictly,com

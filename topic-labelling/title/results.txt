@@ -1,0 +1,74 @@
+search manually for a good label from output-candidates
+
+cluster-1
+1. cable-television is pretty good.
+2. social network is very good.
+3. police 
+4. politics
+
+cluster-2
+Completely republican. The topics from LDA are almost the same. In fact, the score is constant.
+However, the labels are talking about social network, web, internet, live stream. And the work "punjab" is never picked nor generated.
+
+
+only titles 
+
+output-candidates are not the best system to find the candidate labels. LDA topics gives pretty good overview 
+cluster-0 - 0.75 Democrats
+talking about politics, especially trump. targeting trump
+
+cluster-1 - 50/50
+Talks about trump, immigration 
+
+cluster-2 - ERR
+Something Indian
+
+cluster-3 - 0.6 republican 
+talks about some important topics in US politics such as ban on weapons, black people protests and elections
+
+cluster-4 50/50
+talks about shouting, murder and deaths. The word trump also appears once)
+
+cluster-5 .8 Republican
+talks about some scandals: teen suing parents, daughter find dead parents, give to birth in jail.
+
+cluster-6 - ERR
+russian text???
+
+cluster-7 - 0.65 Democrats
+typical 'merica, shoutings, racism and election scandals
+
+cluster-8 - 0.8 Democrats
+same as cluster 7
+
+cluster-9 - 0.8 Democrats
+American problems about discrimination and especially racism towards black people.
+
+cluster-10 - 0.6 Democrats
+classic 'murica
+
+cluster-11 - 0.8 republican 
+Natural disasters
+
+cluster-12 - 0.8 Democrats
+Purely about elections
+
+cluster-13 - 0.6 Democrats
+War, israeli conflict, military. Probably when trump declared Jerusalem capital of Israel. 
+Santcions against russia
+ 
+cluster-14 - ERR
+???? some error with videos
+
+cluster-15  - 0.8 republican 
+elections and problems in India or Bangladesh
+
+cluster-16
+???? some error with videos
+
+cluster-17 - 0.6 republican 
+usual american stuff plus some external problems, like world crisis and terrorism
+
+cluster-18
+???? something indian
+
