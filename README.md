@@ -33,7 +33,7 @@ To investigate this, we tried to understand the distribution of republican and d
 We can see that there is a clear tendency towards more republican content posted each month. However, in terms of reach, the results are surprising. Democratic content is able to gather definitely more engagement after Trump announces his candidancy for US president elections in June 2015.
 
 ![alt text](https://github.com/epfl-ada/ada-2022-project-outliers/blob/main/img/timeseries_likes.png "Logo Title Text 1")
-![alt text](https://github.com/epfl-ada/ada-2022-project-outliers/blob/main/img/timeseries_likes.png "Logo Title Text 1")
+![alt text](https://github.com/epfl-ada/ada-2022-project-outliers/blob/main/img/timeseries_dislikes.png "Logo Title Text 1")
 
 #### :two: Do democrats and republicans live in partisan bubbles or is there any conversation between the two sides?
 
