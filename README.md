@@ -1,5 +1,7 @@
 # Youtube and the myth of political neutrality
 ---
+## Datastory :book:
+<a href="https://outliersprojects.github.io/" title="Learn Markdown">Outliers DataStory</a>
 
 ## Abstract :writing_hand:
 American electoral politics have been dominated by two major political parties: the Democratic Party and the Republican Party. While democrats are liberal and left-leaning, republicans adopted a conservative right-leaning ideology. Each year, the world watches how these two powerful parties dispute power and picks sides. In this context, does Youtube have a political orientation? Is youtube strictly politically unbiased or does it have its own preferences?
