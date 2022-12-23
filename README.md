@@ -10,7 +10,6 @@ For the purpose of finding the answer to these questions, we use a natural langu
 Our research aims to find the answer to a series of question that would help us understand the political polarization of Youtube:
 * Is YouTube strictly politically unbiased or does it have its own preferences?
 * Do democrats and republicans live in partisan bubbles or is there any conversation between the two sides?
-* Is it a bad thing for a channel to change the direction of the videos that they are producing? Does this affects the overall engagement?
 
 ## Additional Datasets :mechanical_arm:
 Given the fact that our analysis is more profund and requires a deep understanding of the content published on Youtube, we decided to use additional datasets:
@@ -26,7 +25,7 @@ Since the discussion is relevant for the US population, we chose to only conside
 
 We found some inconsistencies among the categories for each channel, so we decided to retrieve this information form Youtube API. We filtred only channels from 'Politics' and 'Society', but our further analysis could focus on multiple categories.
 
-#### :one: Is YouTube strictly politically unbiased or does it have its own preferences?
+#### :one: Does Youtube have a political preference?
 To investigate this, we tried to understand the distribution of republican and democratic content. We performed our analysis on video level and aggregated the results by month, in order to understand the trend revolution. 
 
 ![alt text](https://github.com/epfl-ada/ada-2022-project-outliers/blob/main/img/evolution_upload_density.png "Logo Title Text 1")
@@ -40,10 +39,9 @@ We can see that there is a clear tendency towards more republican content posted
 
 For this, we want to see how users interract. Do they only comment on a single type of video, or do they try to have a conversation with the other party? Are democrats more likely to comment to republicans videos? We can inpher if a user is republican or democrat by analysing the majority of the videos he/she commented on. 
 
-We can also try to cluster videos based on similiar topic and user engagement. We would connect the videos that were commented by the same user with a weight that would depend on whether or not the video was published by the same channel and the number of common commenters for both videos. In this way, we can see wheter or not videos form a community of similiar topics and engagement using community detection algorithms.
+In order to answer this question, we analyzed how users interract through commented videos. Two videos are connected if both were commented by at least one common user. The weights between each pair of videos indicates how many users commented under both videos. In this way, we can see wheter or not videos form a community of similiar topics and engagement using community detection algorithms.
 
-#### :three: Is it a bad thing for a channel to change the direction of the videos that they are producing? Does this affect the overall engagement?
-In order to answer this question, we will use the channel timeseries to retrieve the information about a channel at a given point in time. We will match channels that have the same number of subscribers at a certain point in time and have the last 4 videos with the same political scores and sentiment scores. After matching, we can more reliably tell wheter or not changing video direction influences the engagement.
+We ran a community detection algorithm based on The Louvain Method to produce clusters showing users engagement under videos. We observe dense regions in the graph that indicate which content was engaged by the users. Let's use the ppolitical labels to see how many videos related to each political spectrum we have in each clusters.
 
 ## Proposed timeline ⏰
 Week 1: Matching channels and retrieve the results.
@@ -53,16 +51,8 @@ Week 2: Understand users interraction and work on creating video clusters and un
 Week 3: Validate trends based on elections results and finish datastory.
 
 ## Organization within the team 👥
-Datastory: Max + Patryk
+Datastory: Andreea + Rares + Patryk + Max
 
-Maching channels: Andreea + Rares
+Topic Detection on comments: Patryk + Max
 
-User Interraction + Video clustering: Andreea + Patryk
-
-Trend Validation: Rares + Max
-
-## Questions for TA:
-* Is our mathching idea a good way to correclty analyse trends in channels?
-* Should we use ttests to validate question 2? Are there more meaningful ways to showcase these findings?
-* Do you have any suggestions for other analysis that can be performed?
-* If we were to connect videos commented by the same user what would be the optimal idea for the weight between two videos in order to cluster the videos in terms of user engagement? Would the number of common comment between videos help to describe thier engagement?
+Trend Validation: Rares + Andreea
