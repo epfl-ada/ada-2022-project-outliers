@@ -43,6 +43,8 @@ In order to answer this question, we analyzed how users interract through commen
 
 We ran a community detection algorithm based on The Louvain Method to produce clusters showing users engagement under videos. We observe dense regions in the graph that indicate which content was engaged by the users. Let's use the ppolitical labels to see how many videos related to each political spectrum we have in each clusters.
 
+We analysed the extent of YouTube use as an election tool across parties for both House of Representatives and Senate candidates. We searched wheter or not each candidate has an official Youtube channel (we only considered Youtube verified accounts to be valid) at the time of the election.
+
 ## Proposed timeline ⏰
 Week 1: Matching channels and retrieve the results.
 
